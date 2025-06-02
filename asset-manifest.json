@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/onedrop-watertech/static/css/main.f650b5c8.css",
+    "main.js": "/onedrop-watertech/static/js/main.838597b8.js",
+    "index.html": "/onedrop-watertech/index.html",
+    "main.f650b5c8.css.map": "/onedrop-watertech/static/css/main.f650b5c8.css.map",
+    "main.838597b8.js.map": "/onedrop-watertech/static/js/main.838597b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f650b5c8.css",
+    "static/js/main.838597b8.js"
+  ]
+}
