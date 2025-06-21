@@ -18,12 +18,12 @@ const PHONE = '+1 - 954478758754';
 const ADDRESS = '123 Innovation Drive, Tech City, TC 12345';
 
 const car_images = [
-  '/carousel_images/img1.jpg',
-  '/carousel_images/img2.jpg',
-  '/carousel_images/img3.jpg',
-  '/carousel_images/img4.jpg',
-  '/carousel_images/img5.jpg',
-  '/carousel_images/img6.jpg',
+  `${process.env.PUBLIC_URL}/carousel_images/img1.jpg`,
+  `${process.env.PUBLIC_URL}/carousel_images/img2.jpg`,
+  `${process.env.PUBLIC_URL}/carousel_images/img3.jpg`,
+  `${process.env.PUBLIC_URL}/carousel_images/img4.jpg`,
+  `${process.env.PUBLIC_URL}/carousel_images/img5.jpg`,
+  `${process.env.PUBLIC_URL}/carousel_images/img6.jpg`,
 ];
 
 const OneDrop = () => {
@@ -81,7 +81,7 @@ const OneDrop = () => {
       <nav className={`navigation ${scrollY > 50 ? 'scrolled' : 'transparent'}`}>
         <div className="nav-container">
           <div className="nav-logo" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/images/logo-short.png" alt="OneDrop Short Logo" className="nav-logo-short" style={{ width: '2rem', height: '2rem', borderRadius: '9999px', background: 'none', marginRight: '0.25rem' }} />
+            <img src={`${process.env.PUBLIC_URL}/images/logo-short.png`} alt="OneDrop Short Logo" className="nav-logo-short" style={{ width: '2rem', height: '2rem', borderRadius: '9999px', background: 'none', marginRight: '0.25rem' }} />
             <span style={{ display: 'flex', alignItems: 'baseline', fontSize: '1.25rem', fontWeight: 'bold', textTransform: 'uppercase', color: '#0a2e5d', letterSpacing: 0 }}>
               <span style={{ whiteSpace: 'nowrap', display: 'inline', fontWeight: 'bold' }}>
                 {logoParts.map((part, idx) => (
@@ -167,7 +167,7 @@ const OneDrop = () => {
                 padding: '2.5rem',
                 transition: 'background 0.3s',
               }}>
-                <img src="/images/logo-transparent.png" alt="OneDrop WaterTech Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '0', background: 'none', display: 'block' }} />
+                <img src={`${process.env.PUBLIC_URL}/images/logo-transparent.png`} alt="OneDrop WaterTech Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '0', background: 'none', display: 'block' }} />
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ const OneDrop = () => {
           <div className="services-grid">
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img7.jpg" alt="Product 1" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img7.jpg`} alt="Product 1" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 1</h3>
               <p className="services-card-desc">
@@ -316,7 +316,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img8.jpg" alt="Product 2" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img8.jpg`} alt="Product 2" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 2</h3>
               <p className="services-card-desc">
@@ -326,7 +326,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img9.jpg" alt="Product 3" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img9.jpg`} alt="Product 3" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 3</h3>
               <p className="services-card-desc">
@@ -336,7 +336,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img10.jpg" alt="Product 4" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img10.jpg`} alt="Product 4" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 4</h3>
               <p className="services-card-desc">
@@ -346,7 +346,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img11.jpg" alt="Product 5" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img11.jpg`} alt="Product 5" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 5</h3>
               <p className="services-card-desc">
@@ -356,7 +356,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img12.jpg" alt="Product 6" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img12.jpg`} alt="Product 6" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 6</h3>
               <p className="services-card-desc">
@@ -366,7 +366,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img13.jpg" alt="Product 7" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img13.jpg`} alt="Product 7" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 7</h3>
               <p className="services-card-desc">
@@ -376,7 +376,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img14.jpg" alt="Product 8" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img14.jpg`} alt="Product 8" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 8</h3>
               <p className="services-card-desc">
@@ -386,7 +386,7 @@ const OneDrop = () => {
 
             <div className="services-card">
               <div className="services-card-image">
-                <img src="/images/img15.jpg" alt="Product 9" className="product-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/img15.jpg`} alt="Product 9" className="product-image" />
               </div>
               <h3 className="services-card-title">Product 9</h3>
               <p className="services-card-desc">
@@ -460,19 +460,19 @@ const OneDrop = () => {
                 quote: "OneDrop's water technology solutions have revolutionized our water management system. Their innovative approach has helped us reduce water waste by 40%.",
                 author: "Sarah Johnson",
                 position: "Operations Director, EcoTech Industries",
-                image: "/images/img16.jpg"
+                image: `${process.env.PUBLIC_URL}/images/img16.jpg`
               },
               {
                 quote: "The smart water monitoring system from OneDrop has been a game-changer for our facility. Real-time data and automated controls have significantly improved our efficiency.",
                 author: "Michael Chen",
                 position: "Facility Manager, Green Solutions Ltd",
-                image: "/images/img17.jpg"
+                image: `${process.env.PUBLIC_URL}/images/img17.jpg`
               },
               {
                 quote: "Working with OneDrop has been an exceptional experience. Their team's expertise and commitment to sustainability have made a real difference in our water conservation efforts.",
                 author: "Emily Rodriguez",
                 position: "Sustainability Officer, Urban Development Corp",
-                image: "/images/img18.jpg"
+                image: `${process.env.PUBLIC_URL}/images/img18.jpg`
               }
             ].map((testimonial, index) => (
               <div key={index} className="testimonial-card">
@@ -535,7 +535,7 @@ const OneDrop = () => {
         <div className="footer-container">
           <div className="footer-center">
             <div className="footer-logo-row">
-              <img src="/images/logo-short.png" alt="OneDrop Logo Icon" className="footer-logo-circle" style={{ width: '2rem', height: '2rem', borderRadius: '9999px', background: 'none', marginRight: '0.5rem' }} />
+              <img src={`${process.env.PUBLIC_URL}/images/logo-short.png`} alt="OneDrop Logo Icon" className="footer-logo-circle" style={{ width: '2rem', height: '2rem', borderRadius: '9999px', background: 'none', marginRight: '0.5rem' }} />
               <span style={{ display: 'flex', alignItems: 'baseline', fontSize: '1.25rem', fontWeight: 'bold', textTransform: 'uppercase', color: '#0a2e5d', letterSpacing: 0 }}>
                 <span style={{ whiteSpace: 'nowrap', display: 'inline', fontWeight: 'bold' }}>
                   {logoParts.map((part, idx) => (
