@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/onedrop-watertech/static/css/main.f650b5c8.css",
-    "main.js": "/onedrop-watertech/static/js/main.838597b8.js",
+    "main.css": "/onedrop-watertech/static/css/main.085e4bbe.css",
+    "main.js": "/onedrop-watertech/static/js/main.99d1e891.js",
+    "static/media/slick.svg": "/onedrop-watertech/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/onedrop-watertech/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/onedrop-watertech/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/onedrop-watertech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/onedrop-watertech/index.html",
-    "main.f650b5c8.css.map": "/onedrop-watertech/static/css/main.f650b5c8.css.map",
-    "main.838597b8.js.map": "/onedrop-watertech/static/js/main.838597b8.js.map"
+    "main.085e4bbe.css.map": "/onedrop-watertech/static/css/main.085e4bbe.css.map",
+    "main.99d1e891.js.map": "/onedrop-watertech/static/js/main.99d1e891.js.map"
   },
   "entrypoints": [
-    "static/css/main.f650b5c8.css",
-    "static/js/main.838597b8.js"
+    "static/css/main.085e4bbe.css",
+    "static/js/main.99d1e891.js"
   ]
 }
